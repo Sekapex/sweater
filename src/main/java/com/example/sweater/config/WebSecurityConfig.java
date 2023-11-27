@@ -35,8 +35,8 @@ public class WebSecurityConfig {
     public UserDetailsService userDetailsService() {
         UserDetails user =
                 User.withDefaultPasswordEncoder()
-                        .username("Sekapex")
-                        .password("Sekapex")
+                        .username("u")
+                        .password("1")
                         .roles("USER")
                         .build();
 
